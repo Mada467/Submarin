@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Submarin.vcxproj" />
+  <Project Path="Submarin.vcxproj" Id="4c54af0a-cb22-4d91-a987-e29998a67534" />
 </Solution>

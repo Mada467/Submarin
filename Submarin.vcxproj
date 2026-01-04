@@ -128,13 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\ACSLAB34\Amestec_8.1.2\amestec.c" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\ACSLAB34\Amestec_8.1.2\amestec.exe" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ACSLAB34\Amestec_8.1.2\GLOS.H" />
+    <ClCompile Include="amestec.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLOS.H" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

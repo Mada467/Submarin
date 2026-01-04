@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ACSLAB34\Amestec_8.1.2\amestec.c">
+    <None Include="..\ACSLAB34\Amestec_8.1.2\amestec.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="amestec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\ACSLAB34\Amestec_8.1.2\amestec.exe" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\ACSLAB34\Amestec_8.1.2\GLOS.H">
+    <ClInclude Include="GLOS.H">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
